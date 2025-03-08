@@ -5,6 +5,10 @@
   color: #fd6e0a;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .secondary-bg {
   background-color: #fff8f3;
 }
@@ -121,4 +125,41 @@ nav li a {
 }
 .about-description {
   font-weight: bold;
+}
+/* skill titles */
+.skills {
+  max-width: 909px;
+  margin: 0 auto;
+}
+
+/* resume section styles */
+.section-container {
+  display: flex;
+  gap: 24px;
+}
+.experience-sub-title {
+  font-size: 20px;
+  color: #757575;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience-description {
+  color: #757575;
+  font-size: 16px;
+}
+.resume hr {
+  margin: 30px 5px;
+}
+.experience-title {
+  font-size: 25px;
+  color: #474747;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.resume-download-cv {
+  margin-top: 50px;
 }
